@@ -1,0 +1,1886 @@
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 1 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.5068     (Insuf)    3.9043     8.1759        139    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        139    
+Customer.WaitTime                           2.0199     (Insuf)    .00000     7.6535        139    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        139    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        139    
+Customer.TotalTime                          7.5267     (Insuf)    3.9043     13.836        139    
+Order at Cashier.Queue.WaitingTime          .70947     (Insuf)    .00000     5.5160        100    
+Cook.Queue.WaitingTime                      1.1550     (Insuf)    .00000     4.5401        143    
+Order at Kiosk.Queue.WaitingTime            1.3248     (Insuf)    .00000     6.3071         46    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                6.0227     (Insuf)    .00000     12.000     7.0000    
+Kiosk.NumberBusy                            .63802     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .63802     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            3.1697     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .79244     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .54726     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .54726     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .39415     (Insuf)    .00000     6.0000     .00000    
+Cook.Queue.NumberInQueue                    .93494     (Insuf)    .00000     5.0000     2.0000    
+Order at Kiosk.Queue.NumberInQueue          .33858     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           146.00    
+Customer.NumberOut                          139.00    
+Kiosk.NumberSeized                          46.000    
+Kiosk.ScheduledUtilization                  .63802    
+Cooks.NumberSeized                          143.00    
+Cooks.ScheduledUtilization                  .79244    
+Cashier.NumberSeized                        100.00    
+Cashier.ScheduledUtilization                .54726    
+System.NumberOut                            139.00    
+
+Beginning replication 2 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 2 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.5005     (Insuf)    4.2123     7.9344        129    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        129    
+Customer.WaitTime                           1.3237     (Insuf)    .00000     8.6819        129    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        129    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        129    
+Customer.TotalTime                          6.8243     (Insuf)    4.2468     15.461        129    
+Order at Cashier.Queue.WaitingTime          .31357     (Insuf)    .00000     1.9816         91    
+Cook.Queue.WaitingTime                      .48242     (Insuf)    .00000     3.0870        133    
+Order at Kiosk.Queue.WaitingTime            1.9468     (Insuf)    .00000     6.7485         45    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                5.0405     (Insuf)    .00000     10.000     8.0000    
+Kiosk.NumberBusy                            .61125     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .61125     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.9005     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .72513     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .51579     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .51579     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .15853     (Insuf)    .00000     3.0000     .00000    
+Cook.Queue.NumberInQueue                    .35959     (Insuf)    .00000     4.0000     2.0000    
+Order at Kiosk.Queue.NumberInQueue          .49488     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           137.00    
+Customer.NumberOut                          129.00    
+Kiosk.NumberSeized                          45.000    
+Kiosk.ScheduledUtilization                  .61125    
+Cooks.NumberSeized                          133.00    
+Cooks.ScheduledUtilization                  .72513    
+Cashier.NumberSeized                        91.000    
+Cashier.ScheduledUtilization                .51579    
+System.NumberOut                            129.00    
+
+Beginning replication 3 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 3 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4407     (Insuf)    3.7326     8.2512        129    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        129    
+Customer.WaitTime                           1.8159     (Insuf)    .00000     9.2376        129    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        129    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        129    
+Customer.TotalTime                          7.2567     (Insuf)    4.1484     15.495        129    
+Order at Cashier.Queue.WaitingTime          .35997     (Insuf)    .00000     2.3678         88    
+Cook.Queue.WaitingTime                      .69225     (Insuf)    .00000     4.6517        131    
+Order at Kiosk.Queue.WaitingTime            2.5431     (Insuf)    .00000     8.3351         44    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                5.2473     (Insuf)    .00000     13.000     3.0000    
+Kiosk.NumberBusy                            .59640     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .59640     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.8851     (Insuf)    .00000     4.0000     2.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .72128     (Insuf)    .00000     1.0000     .50000    
+Cashier.NumberBusy                          .46437     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .46437     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .17598     (Insuf)    .00000     3.0000     .00000    
+Cook.Queue.NumberInQueue                    .50381     (Insuf)    .00000     5.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .62166     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           132.00    
+Customer.NumberOut                          129.00    
+Kiosk.NumberSeized                          44.000    
+Kiosk.ScheduledUtilization                  .59640    
+Cooks.NumberSeized                          131.00    
+Cooks.ScheduledUtilization                  .72128    
+Cashier.NumberSeized                        88.000    
+Cashier.ScheduledUtilization                .46437    
+System.NumberOut                            129.00    
+
+Beginning replication 4 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 4 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4805     (Insuf)    3.9743     8.0862        148    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        148    
+Customer.WaitTime                           2.5368     (Insuf)    .00000     9.4160        148    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        148    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        148    
+Customer.TotalTime                          8.0174     (Insuf)    3.9743     16.991        148    
+Order at Cashier.Queue.WaitingTime          1.1552     (Insuf)    .00000     7.7379        103    
+Cook.Queue.WaitingTime                      .88996     (Insuf)    .00000     4.9057        152    
+Order at Kiosk.Queue.WaitingTime            2.5007     (Insuf)    .00000     8.8775         51    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                6.7166     (Insuf)    .00000     14.000     8.0000    
+Kiosk.NumberBusy                            .70962     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .70962     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            3.2815     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .82038     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .58329     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .58329     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .66444     (Insuf)    .00000     8.0000     1.0000    
+Cook.Queue.NumberInQueue                    .75153     (Insuf)    .00000     5.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .72629     (Insuf)    .00000     4.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           156.00    
+Customer.NumberOut                          148.00    
+Kiosk.NumberSeized                          51.000    
+Kiosk.ScheduledUtilization                  .70962    
+Cooks.NumberSeized                          152.00    
+Cooks.ScheduledUtilization                  .82038    
+Cashier.NumberSeized                        103.00    
+Cashier.ScheduledUtilization                .58329    
+System.NumberOut                            148.00    
+
+Beginning replication 5 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 5 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.2487     (Insuf)    3.7765     7.9644        126    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        126    
+Customer.WaitTime                           .82396     (Insuf)    .00000     4.4217        126    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        126    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        126    
+Customer.TotalTime                          6.0727     (Insuf)    3.7765     9.2052        126    
+Order at Cashier.Queue.WaitingTime          .53108     (Insuf)    .00000     2.7618        100    
+Cook.Queue.WaitingTime                      .35393     (Insuf)    .00000     2.9129        129    
+Order at Kiosk.Queue.WaitingTime            .16304     (Insuf)    .00000     2.8394         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.3328     (Insuf)    .00000     9.0000     6.0000    
+Kiosk.NumberBusy                            .43050     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .43050     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.7788     (Insuf)    .00000     4.0000     3.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .69470     (Insuf)    .00000     1.0000     .75000    
+Cashier.NumberBusy                          .54039     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .54039     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .29504     (Insuf)    .00000     3.0000     .00000    
+Cook.Queue.NumberInQueue                    .25365     (Insuf)    .00000     3.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .03447     (Insuf)    .00000     1.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           132.00    
+Customer.NumberOut                          126.00    
+Kiosk.NumberSeized                          31.000    
+Kiosk.ScheduledUtilization                  .43050    
+Cooks.NumberSeized                          129.00    
+Cooks.ScheduledUtilization                  .69470    
+Cashier.NumberSeized                        100.00    
+Cashier.ScheduledUtilization                .54039    
+System.NumberOut                            126.00    
+
+Beginning replication 6 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 6 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4037     (Insuf)    3.9298     8.5539        148    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        148    
+Customer.WaitTime                           2.3958     (Insuf)    .00000     12.762        148    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        148    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        148    
+Customer.TotalTime                          7.7995     (Insuf)    4.2422     19.476        148    
+Order at Cashier.Queue.WaitingTime          .71008     (Insuf)    .00000     3.2515        110    
+Cook.Queue.WaitingTime                      1.3109     (Insuf)    .00000     6.2583        152    
+Order at Kiosk.Queue.WaitingTime            1.8090     (Insuf)    .00000     9.0050         44    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                6.5355     (Insuf)    .00000     16.000     6.0000    
+Kiosk.NumberBusy                            .63510     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .63510     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            3.3123     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .82808     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .60498     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .60498     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .43394     (Insuf)    .00000     4.0000     .00000    
+Cook.Queue.NumberInQueue                    1.1070     (Insuf)    .00000     8.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .44222     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           154.00    
+Customer.NumberOut                          148.00    
+Kiosk.NumberSeized                          44.000    
+Kiosk.ScheduledUtilization                  .63510    
+Cooks.NumberSeized                          152.00    
+Cooks.ScheduledUtilization                  .82808    
+Cashier.NumberSeized                        110.00    
+Cashier.ScheduledUtilization                .60498    
+System.NumberOut                            148.00    
+
+Beginning replication 7 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 7 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.6039     (Insuf)    3.8879     7.9793        124    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        124    
+Customer.WaitTime                           1.4138     (Insuf)    .00000     8.2728        124    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        124    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        124    
+Customer.TotalTime                          7.0177     (Insuf)    3.8879     15.101        124    
+Order at Cashier.Queue.WaitingTime          .38440     (Insuf)    .00000     3.7864         78    
+Cook.Queue.WaitingTime                      .25792     (Insuf)    .00000     2.6594        126    
+Order at Kiosk.Queue.WaitingTime            2.3200     (Insuf)    .00000     8.2728         49    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.8880     (Insuf)    .00000     11.000     3.0000    
+Kiosk.NumberBusy                            .66408     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .66408     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.8125     (Insuf)    .00000     4.0000     2.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .70315     (Insuf)    .00000     1.0000     .50000    
+Cashier.NumberBusy                          .43265     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .43265     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .16657     (Insuf)    .00000     4.0000     .00000    
+Cook.Queue.NumberInQueue                    .18054     (Insuf)    .00000     3.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .63156     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           127.00    
+Customer.NumberOut                          124.00    
+Kiosk.NumberSeized                          49.000    
+Kiosk.ScheduledUtilization                  .66408    
+Cooks.NumberSeized                          126.00    
+Cooks.ScheduledUtilization                  .70315    
+Cashier.NumberSeized                        78.000    
+Cashier.ScheduledUtilization                .43265    
+System.NumberOut                            124.00    
+
+Beginning replication 8 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 8 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4609     (Insuf)    4.0508     7.9649        125    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        125    
+Customer.WaitTime                           .80598     (Insuf)    .00000     7.4912        125    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        125    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        125    
+Customer.TotalTime                          6.2669     (Insuf)    4.1486     12.261        125    
+Order at Cashier.Queue.WaitingTime          .31193     (Insuf)    .00000     1.8559         80    
+Cook.Queue.WaitingTime                      .15500     (Insuf)    .00000     2.7104        129    
+Order at Kiosk.Queue.WaitingTime            1.2035     (Insuf)    .00000     4.9924         49    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.4529     (Insuf)    .00000     10.000     4.0000    
+Kiosk.NumberBusy                            .63528     (Insuf)    .00000     1.0000     .00000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .63528     (Insuf)    .00000     1.0000     .00000    
+Cooks.NumberBusy                            2.7889     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .69725     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .45136     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .45136     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .13863     (Insuf)    .00000     2.0000     .00000    
+Cook.Queue.NumberInQueue                    .11108     (Insuf)    .00000     2.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .32764     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           129.00    
+Customer.NumberOut                          125.00    
+Kiosk.NumberSeized                          49.000    
+Kiosk.ScheduledUtilization                  .63528    
+Cooks.NumberSeized                          129.00    
+Cooks.ScheduledUtilization                  .69725    
+Cashier.NumberSeized                        80.000    
+Cashier.ScheduledUtilization                .45136    
+System.NumberOut                            125.00    
+
+Beginning replication 9 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 9 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.3166     (Insuf)    3.9199     7.6925        114    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        114    
+Customer.WaitTime                           .63883     (Insuf)    .00000     6.0506        114    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        114    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        114    
+Customer.TotalTime                          5.9554     (Insuf)    3.9295     13.743        114    
+Order at Cashier.Queue.WaitingTime          .42205     (Insuf)    .00000     1.7547         94    
+Cook.Queue.WaitingTime                      .20353     (Insuf)    .00000     2.3682        118    
+Order at Kiosk.Queue.WaitingTime            .74668     (Insuf)    .00000     6.0506         27    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                3.9081     (Insuf)    .00000     10.000     8.0000    
+Kiosk.NumberBusy                            .37938     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .37938     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.5570     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .63927     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .49967     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .49967     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .22500     (Insuf)    .00000     3.0000     1.0000    
+Cook.Queue.NumberInQueue                    .13497     (Insuf)    .00000     3.0000     1.0000    
+Order at Kiosk.Queue.NumberInQueue          .11200     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           122.00    
+Customer.NumberOut                          114.00    
+Kiosk.NumberSeized                          27.000    
+Kiosk.ScheduledUtilization                  .37938    
+Cooks.NumberSeized                          118.00    
+Cooks.ScheduledUtilization                  .63927    
+Cashier.NumberSeized                        94.000    
+Cashier.ScheduledUtilization                .49967    
+System.NumberOut                            114.00    
+
+Beginning replication 10 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 10 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.3621     (Insuf)    3.9320     8.0398        126    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        126    
+Customer.WaitTime                           1.5628     (Insuf)    .00000     7.8644        126    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        126    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        126    
+Customer.TotalTime                          6.9249     (Insuf)    3.9674     13.301        126    
+Order at Cashier.Queue.WaitingTime          .56347     (Insuf)    .00000     2.8086         96    
+Cook.Queue.WaitingTime                      .86237     (Insuf)    .00000     5.9171        130    
+Order at Kiosk.Queue.WaitingTime            1.3421     (Insuf)    .00000     5.0659         37    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                5.1302     (Insuf)    .00000     13.000     10.000    
+Kiosk.NumberBusy                            .50449     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .50449     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.8649     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .71623     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .51803     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .51803     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .30052     (Insuf)    .00000     4.0000     .00000    
+Cook.Queue.NumberInQueue                    .63244     (Insuf)    .00000     6.0000     2.0000    
+Order at Kiosk.Queue.NumberInQueue          .30978     (Insuf)    .00000     3.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           136.00    
+Customer.NumberOut                          126.00    
+Kiosk.NumberSeized                          37.000    
+Kiosk.ScheduledUtilization                  .50449    
+Cooks.NumberSeized                          130.00    
+Cooks.ScheduledUtilization                  .71623    
+Cashier.NumberSeized                        96.000    
+Cashier.ScheduledUtilization                .51803    
+System.NumberOut                            126.00    
+
+Beginning replication 11 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 11 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.6002     (Insuf)    3.9881     8.5590        145    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        145    
+Customer.WaitTime                           2.7555     (Insuf)    .00000     13.301        145    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        145    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        145    
+Customer.TotalTime                          8.3557     (Insuf)    4.2207     20.480        145    
+Order at Cashier.Queue.WaitingTime          .64899     (Insuf)    .00000     4.0720         96    
+Cook.Queue.WaitingTime                      1.2375     (Insuf)    .00000     6.0951        147    
+Order at Kiosk.Queue.WaitingTime            3.0456     (Insuf)    .00000     11.520         51    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                6.7637     (Insuf)    .00000     14.000     2.0000    
+Kiosk.NumberBusy                            .73646     (Insuf)    .00000     1.0000     .00000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .73646     (Insuf)    .00000     1.0000     .00000    
+Cooks.NumberBusy                            3.2749     (Insuf)    .00000     4.0000     2.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .81873     (Insuf)    .00000     1.0000     .50000    
+Cashier.NumberBusy                          .53266     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .53266     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .34613     (Insuf)    .00000     4.0000     .00000    
+Cook.Queue.NumberInQueue                    1.0106     (Insuf)    .00000     6.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .86292     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           147.00    
+Customer.NumberOut                          145.00    
+Kiosk.NumberSeized                          51.000    
+Kiosk.ScheduledUtilization                  .73646    
+Cooks.NumberSeized                          147.00    
+Cooks.ScheduledUtilization                  .81873    
+Cashier.NumberSeized                        96.000    
+Cashier.ScheduledUtilization                .53266    
+System.NumberOut                            145.00    
+
+Beginning replication 12 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 12 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4383     (Insuf)    3.8913     7.8976        146    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        146    
+Customer.WaitTime                           1.4305     (Insuf)    .00000     9.7070        146    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        146    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        146    
+Customer.TotalTime                          6.8688     (Insuf)    4.0237     16.965        146    
+Order at Cashier.Queue.WaitingTime          .50000     (Insuf)    .00000     3.2659        110    
+Cook.Queue.WaitingTime                      .69606     (Insuf)    .00000     3.7892        150    
+Order at Kiosk.Queue.WaitingTime            1.3433     (Insuf)    .00000     7.3752         42    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                5.6957     (Insuf)    .00000     11.000     6.0000    
+Kiosk.NumberBusy                            .59198     (Insuf)    .00000     1.0000     .00000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .59198     (Insuf)    .00000     1.0000     .00000    
+Cooks.NumberBusy                            3.2931     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .82329     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .60737     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .60737     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .30556     (Insuf)    .00000     4.0000     .00000    
+Cook.Queue.NumberInQueue                    .58424     (Insuf)    .00000     4.0000     1.0000    
+Order at Kiosk.Queue.NumberInQueue          .31345     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           152.00    
+Customer.NumberOut                          146.00    
+Kiosk.NumberSeized                          42.000    
+Kiosk.ScheduledUtilization                  .59198    
+Cooks.NumberSeized                          150.00    
+Cooks.ScheduledUtilization                  .82329    
+Cashier.NumberSeized                        110.00    
+Cashier.ScheduledUtilization                .60737    
+System.NumberOut                            146.00    
+
+Beginning replication 13 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 13 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4299     (Insuf)    3.7818     8.2486        129    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        129    
+Customer.WaitTime                           1.4019     (Insuf)    .00000     6.2762        129    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        129    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        129    
+Customer.TotalTime                          6.8319     (Insuf)    3.7818     13.225        129    
+Order at Cashier.Queue.WaitingTime          .51412     (Insuf)    .00000     3.1643         97    
+Cook.Queue.WaitingTime                      .82570     (Insuf)    .00000     3.5344        133    
+Order at Kiosk.Queue.WaitingTime            .59923     (Insuf)    .00000     3.8340         38    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.9864     (Insuf)    .00000     12.000     6.0000    
+Kiosk.NumberBusy                            .52599     (Insuf)    .00000     1.0000     .00000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .52599     (Insuf)    .00000     1.0000     .00000    
+Cooks.NumberBusy                            2.9237     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .73094     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .52084     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .52084     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .27705     (Insuf)    .00000     4.0000     .00000    
+Cook.Queue.NumberInQueue                    .61229     (Insuf)    .00000     4.0000     1.0000    
+Order at Kiosk.Queue.NumberInQueue          .12650     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           135.00    
+Customer.NumberOut                          129.00    
+Kiosk.NumberSeized                          38.000    
+Kiosk.ScheduledUtilization                  .52599    
+Cooks.NumberSeized                          133.00    
+Cooks.ScheduledUtilization                  .73094    
+Cashier.NumberSeized                        97.000    
+Cashier.ScheduledUtilization                .52084    
+System.NumberOut                            129.00    
+
+Beginning replication 14 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 14 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4256     (Insuf)    4.0449     7.9701        134    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        134    
+Customer.WaitTime                           1.8907     (Insuf)    .00000     9.8604        134    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        134    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        134    
+Customer.TotalTime                          7.3164     (Insuf)    4.0449     16.212        134    
+Order at Cashier.Queue.WaitingTime          .98176     (Insuf)    .00000     5.3892         99    
+Cook.Queue.WaitingTime                      .71336     (Insuf)    .00000     4.4099        136    
+Order at Kiosk.Queue.WaitingTime            1.6089     (Insuf)    .00000     8.7699         38    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                5.5150     (Insuf)    .00000     14.000     4.0000    
+Kiosk.NumberBusy                            .54697     (Insuf)    .00000     1.0000     .00000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .54697     (Insuf)    .00000     1.0000     .00000    
+Cooks.NumberBusy                            2.9883     (Insuf)    .00000     4.0000     2.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .74709     (Insuf)    .00000     1.0000     .50000    
+Cashier.NumberBusy                          .55666     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .55666     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .54438     (Insuf)    .00000     5.0000     1.0000    
+Cook.Queue.NumberInQueue                    .53898     (Insuf)    .00000     5.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .33966     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           138.00    
+Customer.NumberOut                          134.00    
+Kiosk.NumberSeized                          38.000    
+Kiosk.ScheduledUtilization                  .54697    
+Cooks.NumberSeized                          136.00    
+Cooks.ScheduledUtilization                  .74709    
+Cashier.NumberSeized                        99.000    
+Cashier.ScheduledUtilization                .55666    
+System.NumberOut                            134.00    
+
+Beginning replication 15 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 15 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4963     (Insuf)    4.0797     7.7956        150    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        150    
+Customer.WaitTime                           2.0802     (Insuf)    .00000     12.588        150    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        150    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        150    
+Customer.TotalTime                          7.5765     (Insuf)    4.3715     19.882        150    
+Order at Cashier.Queue.WaitingTime          .47843     (Insuf)    .00000     2.7465        101    
+Cook.Queue.WaitingTime                      .62632     (Insuf)    .00000     3.1706        152    
+Order at Kiosk.Queue.WaitingTime            3.2902     (Insuf)    .00000     12.588         52    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                6.3626     (Insuf)    .00000     13.000     3.0000    
+Kiosk.NumberBusy                            .70143     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .70143     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            3.3409     (Insuf)    .00000     4.0000     2.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .83524     (Insuf)    .00000     1.0000     .50000    
+Cashier.NumberBusy                          .57243     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .57243     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .26845     (Insuf)    .00000     3.0000     .00000    
+Cook.Queue.NumberInQueue                    .52889     (Insuf)    .00000     4.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .95050     (Insuf)    .00000     5.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           153.00    
+Customer.NumberOut                          150.00    
+Kiosk.NumberSeized                          52.000    
+Kiosk.ScheduledUtilization                  .70143    
+Cooks.NumberSeized                          152.00    
+Cooks.ScheduledUtilization                  .83524    
+Cashier.NumberSeized                        101.00    
+Cashier.ScheduledUtilization                .57243    
+System.NumberOut                            150.00    
+
+Beginning replication 16 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 16 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4536     (Insuf)    4.1184     8.0274        129    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        129    
+Customer.WaitTime                           1.0322     (Insuf)    .00000     8.1406        129    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        129    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        129    
+Customer.TotalTime                          6.4858     (Insuf)    4.1864     14.155        129    
+Order at Cashier.Queue.WaitingTime          .37801     (Insuf)    .00000     1.9008         96    
+Cook.Queue.WaitingTime                      .24371     (Insuf)    .00000     3.5453        130    
+Order at Kiosk.Queue.WaitingTime            1.8625     (Insuf)    .00000     8.1406         35    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.6571     (Insuf)    .00000     11.000     2.0000    
+Kiosk.NumberBusy                            .48974     (Insuf)    .00000     1.0000     .00000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .48974     (Insuf)    .00000     1.0000     .00000    
+Cooks.NumberBusy                            2.8943     (Insuf)    .00000     4.0000     1.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .72358     (Insuf)    .00000     1.0000     .25000    
+Cashier.NumberBusy                          .53332     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .53332     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .20161     (Insuf)    .00000     3.0000     .00000    
+Cook.Queue.NumberInQueue                    .17601     (Insuf)    .00000     4.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .36216     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           131.00    
+Customer.NumberOut                          129.00    
+Kiosk.NumberSeized                          35.000    
+Kiosk.ScheduledUtilization                  .48974    
+Cooks.NumberSeized                          130.00    
+Cooks.ScheduledUtilization                  .72358    
+Cashier.NumberSeized                        96.000    
+Cashier.ScheduledUtilization                .53332    
+System.NumberOut                            129.00    
+
+Beginning replication 17 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 17 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4630     (Insuf)    3.9628     7.8680        129    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        129    
+Customer.WaitTime                           1.0556     (Insuf)    .00000     6.4473        129    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        129    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        129    
+Customer.TotalTime                          6.5187     (Insuf)    4.0937     13.485        129    
+Order at Cashier.Queue.WaitingTime          .50540     (Insuf)    .00000     3.2312         95    
+Cook.Queue.WaitingTime                      .31649     (Insuf)    .00000     2.2866        132    
+Order at Kiosk.Queue.WaitingTime            1.4360     (Insuf)    .00000     6.4473         39    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.7926     (Insuf)    .00000     10.000     6.0000    
+Kiosk.NumberBusy                            .55143     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .55143     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.8976     (Insuf)    .00000     4.0000     3.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .72441     (Insuf)    .00000     1.0000     .75000    
+Cashier.NumberBusy                          .53295     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .53295     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .26739     (Insuf)    .00000     3.0000     1.0000    
+Cook.Queue.NumberInQueue                    .23209     (Insuf)    .00000     3.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .31114     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           135.00    
+Customer.NumberOut                          129.00    
+Kiosk.NumberSeized                          39.000    
+Kiosk.ScheduledUtilization                  .55143    
+Cooks.NumberSeized                          132.00    
+Cooks.ScheduledUtilization                  .72441    
+Cashier.NumberSeized                        95.000    
+Cashier.ScheduledUtilization                .53295    
+System.NumberOut                            129.00    
+
+Beginning replication 18 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 18 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4190     (Insuf)    3.7808     7.8245        133    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        133    
+Customer.WaitTime                           1.1620     (Insuf)    .00000     7.6603        133    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        133    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        133    
+Customer.TotalTime                          6.5810     (Insuf)    4.1472     12.978        133    
+Order at Cashier.Queue.WaitingTime          .37636     (Insuf)    .00000     2.8196         94    
+Cook.Queue.WaitingTime                      .39817     (Insuf)    .00000     2.4972        135    
+Order at Kiosk.Queue.WaitingTime            1.6505     (Insuf)    .00000     6.1629         43    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.9528     (Insuf)    .00000     11.000     4.0000    
+Kiosk.NumberBusy                            .60768     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .60768     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.9428     (Insuf)    .00000     4.0000     2.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .73572     (Insuf)    .00000     1.0000     .50000    
+Cashier.NumberBusy                          .51280     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .51280     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .19654     (Insuf)    .00000     3.0000     .00000    
+Cook.Queue.NumberInQueue                    .29862     (Insuf)    .00000     3.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .39429     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           137.00    
+Customer.NumberOut                          133.00    
+Kiosk.NumberSeized                          43.000    
+Kiosk.ScheduledUtilization                  .60768    
+Cooks.NumberSeized                          135.00    
+Cooks.ScheduledUtilization                  .73572    
+Cashier.NumberSeized                        94.000    
+Cashier.ScheduledUtilization                .51280    
+System.NumberOut                            133.00    
+
+Beginning replication 19 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 19 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4486     (Insuf)    4.0494     8.0967        115    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        115    
+Customer.WaitTime                           1.3655     (Insuf)    .00000     6.6927        115    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        115    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        115    
+Customer.TotalTime                          6.8141     (Insuf)    4.0494     13.289        115    
+Order at Cashier.Queue.WaitingTime          .51282     (Insuf)    .00000     3.0014         79    
+Cook.Queue.WaitingTime                      .66557     (Insuf)    .00000     4.2737        119    
+Order at Kiosk.Queue.WaitingTime            1.1181     (Insuf)    .00000     4.6549         41    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.5021     (Insuf)    .00000     13.000     5.0000    
+Kiosk.NumberBusy                            .56995     (Insuf)    .00000     1.0000     .00000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .56995     (Insuf)    .00000     1.0000     .00000    
+Cooks.NumberBusy                            2.5732     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .64332     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .43493     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .43493     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .22507     (Insuf)    .00000     3.0000     .00000    
+Cook.Queue.NumberInQueue                    .44419     (Insuf)    .00000     5.0000     1.0000    
+Order at Kiosk.Queue.NumberInQueue          .25469     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           120.00    
+Customer.NumberOut                          115.00    
+Kiosk.NumberSeized                          41.000    
+Kiosk.ScheduledUtilization                  .56995    
+Cooks.NumberSeized                          119.00    
+Cooks.ScheduledUtilization                  .64332    
+Cashier.NumberSeized                        79.000    
+Cashier.ScheduledUtilization                .43493    
+System.NumberOut                            115.00    
+
+Beginning replication 20 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 20 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.3549     (Insuf)    4.0196     7.8204        118    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        118    
+Customer.WaitTime                           1.1940     (Insuf)    .00000     5.2868        118    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        118    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        118    
+Customer.TotalTime                          6.5489     (Insuf)    4.1126     10.970        118    
+Order at Cashier.Queue.WaitingTime          .57201     (Insuf)    .00000     3.4718         94    
+Cook.Queue.WaitingTime                      .58338     (Insuf)    .00000     3.9656        122    
+Order at Kiosk.Queue.WaitingTime            1.0001     (Insuf)    .00000     3.5719         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.4898     (Insuf)    .00000     11.000     7.0000    
+Kiosk.NumberBusy                            .43245     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .43245     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.6765     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .66914     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .50632     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .50632     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .29872     (Insuf)    .00000     4.0000     .00000    
+Cook.Queue.NumberInQueue                    .40355     (Insuf)    .00000     4.0000     2.0000    
+Order at Kiosk.Queue.NumberInQueue          .17225     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           125.00    
+Customer.NumberOut                          118.00    
+Kiosk.NumberSeized                          31.000    
+Kiosk.ScheduledUtilization                  .43245    
+Cooks.NumberSeized                          122.00    
+Cooks.ScheduledUtilization                  .66914    
+Cashier.NumberSeized                        94.000    
+Cashier.ScheduledUtilization                .50632    
+System.NumberOut                            118.00    
+
+Beginning replication 21 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 21 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.3833     (Insuf)    4.0507     7.8447        129    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        129    
+Customer.WaitTime                           2.3210     (Insuf)    .00000     11.496        129    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        129    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        129    
+Customer.TotalTime                          7.7043     (Insuf)    4.0507     16.060        129    
+Order at Cashier.Queue.WaitingTime          1.0878     (Insuf)    .00000     6.4302         97    
+Cook.Queue.WaitingTime                      1.2743     (Insuf)    .00000     7.1153        133    
+Order at Kiosk.Queue.WaitingTime            .83230     (Insuf)    .00000     6.3451         37    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                5.6224     (Insuf)    .00000     15.000     5.0000    
+Kiosk.NumberBusy                            .50433     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .50433     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.8723     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .71809     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .54688     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .54688     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .58625     (Insuf)    .00000     7.0000     .00000    
+Cook.Queue.NumberInQueue                    .94159     (Insuf)    .00000     8.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .17108     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           134.00    
+Customer.NumberOut                          129.00    
+Kiosk.NumberSeized                          37.000    
+Kiosk.ScheduledUtilization                  .50433    
+Cooks.NumberSeized                          133.00    
+Cooks.ScheduledUtilization                  .71809    
+Cashier.NumberSeized                        97.000    
+Cashier.ScheduledUtilization                .54688    
+System.NumberOut                            129.00    
+
+Beginning replication 22 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 22 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4338     (Insuf)    3.6691     8.2106        104    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        104    
+Customer.WaitTime                           .62123     (Insuf)    .00000     5.7140        104    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        104    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        104    
+Customer.TotalTime                          6.0550     (Insuf)    3.6691     13.117        104    
+Order at Cashier.Queue.WaitingTime          .13269     (Insuf)    .00000     .92853         78    
+Cook.Queue.WaitingTime                      .14381     (Insuf)    .00000     1.7417        107    
+Order at Kiosk.Queue.WaitingTime            1.3650     (Insuf)    .00000     4.8768         30    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                3.5779     (Insuf)    .00000     9.0000     4.0000    
+Kiosk.NumberBusy                            .43944     (Insuf)    .00000     1.0000     .00000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .43944     (Insuf)    .00000     1.0000     .00000    
+Cooks.NumberBusy                            2.3435     (Insuf)    .00000     4.0000     3.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .58590     (Insuf)    .00000     1.0000     .75000    
+Cashier.NumberBusy                          .42445     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .42445     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .05750     (Insuf)    .00000     1.0000     .00000    
+Cook.Queue.NumberInQueue                    .08548     (Insuf)    .00000     2.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .22751     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           108.00    
+Customer.NumberOut                          104.00    
+Kiosk.NumberSeized                          30.000    
+Kiosk.ScheduledUtilization                  .43944    
+Cooks.NumberSeized                          107.00    
+Cooks.ScheduledUtilization                  .58590    
+Cashier.NumberSeized                        78.000    
+Cashier.ScheduledUtilization                .42445    
+System.NumberOut                            104.00    
+
+Beginning replication 23 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 23 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4974     (Insuf)    3.9606     7.9892        122    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        122    
+Customer.WaitTime                           .86355     (Insuf)    .00000     5.7037        122    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        122    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        122    
+Customer.TotalTime                          6.3610     (Insuf)    4.0647     11.461        122    
+Order at Cashier.Queue.WaitingTime          .46036     (Insuf)    .00000     2.2569         86    
+Cook.Queue.WaitingTime                      .21275     (Insuf)    .00000     2.0346        124    
+Order at Kiosk.Queue.WaitingTime            1.0097     (Insuf)    .00000     5.7037         39    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.3638     (Insuf)    .00000     9.0000     3.0000    
+Kiosk.NumberBusy                            .54777     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .54777     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.7559     (Insuf)    .00000     4.0000     2.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .68899     (Insuf)    .00000     1.0000     .50000    
+Cashier.NumberBusy                          .47487     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .47487     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .21995     (Insuf)    .00000     3.0000     .00000    
+Cook.Queue.NumberInQueue                    .14656     (Insuf)    .00000     3.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .21878     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           125.00    
+Customer.NumberOut                          122.00    
+Kiosk.NumberSeized                          39.000    
+Kiosk.ScheduledUtilization                  .54777    
+Cooks.NumberSeized                          124.00    
+Cooks.ScheduledUtilization                  .68899    
+Cashier.NumberSeized                        86.000    
+Cashier.ScheduledUtilization                .47487    
+System.NumberOut                            122.00    
+
+Beginning replication 24 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 24 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.5313     (Insuf)    4.0289     8.1987        108    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        108    
+Customer.WaitTime                           1.1365     (Insuf)    .00000     7.6095        108    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        108    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        108    
+Customer.TotalTime                          6.6679     (Insuf)    4.0289     13.440        108    
+Order at Cashier.Queue.WaitingTime          .31247     (Insuf)    .00000     1.7541         77    
+Cook.Queue.WaitingTime                      .30498     (Insuf)    .00000     2.3077        112    
+Order at Kiosk.Queue.WaitingTime            1.8804     (Insuf)    .00000     7.6095         36    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.0989     (Insuf)    .00000     10.000     5.0000    
+Kiosk.NumberBusy                            .49180     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .49180     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.4631     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .61579     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .44445     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .44445     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .13367     (Insuf)    .00000     2.0000     .00000    
+Cook.Queue.NumberInQueue                    .18977     (Insuf)    .00000     3.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .37608     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           113.00    
+Customer.NumberOut                          108.00    
+Kiosk.NumberSeized                          36.000    
+Kiosk.ScheduledUtilization                  .49180    
+Cooks.NumberSeized                          112.00    
+Cooks.ScheduledUtilization                  .61579    
+Cashier.NumberSeized                        77.000    
+Cashier.ScheduledUtilization                .44445    
+System.NumberOut                            108.00    
+
+Beginning replication 25 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 25 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.2807     (Insuf)    3.9474     7.9871        131    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        131    
+Customer.WaitTime                           1.3415     (Insuf)    .00000     6.6034        131    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        131    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        131    
+Customer.TotalTime                          6.6222     (Insuf)    3.9474     11.426        131    
+Order at Cashier.Queue.WaitingTime          .85822     (Insuf)    .00000     4.3273        104    
+Cook.Queue.WaitingTime                      .52477     (Insuf)    .00000     3.5226        134    
+Order at Kiosk.Queue.WaitingTime            .52151     (Insuf)    .00000     2.7263         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.8707     (Insuf)    .00000     12.000     4.0000    
+Kiosk.NumberBusy                            .43943     (Insuf)    .00000     1.0000     .00000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .43943     (Insuf)    .00000     1.0000     .00000    
+Cooks.NumberBusy                            2.8936     (Insuf)    .00000     4.0000     3.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .72340     (Insuf)    .00000     1.0000     .75000    
+Cashier.NumberBusy                          .56139     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .56139     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .49586     (Insuf)    .00000     5.0000     .00000    
+Cook.Queue.NumberInQueue                    .39066     (Insuf)    .00000     4.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .08982     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           135.00    
+Customer.NumberOut                          131.00    
+Kiosk.NumberSeized                          31.000    
+Kiosk.ScheduledUtilization                  .43943    
+Cooks.NumberSeized                          134.00    
+Cooks.ScheduledUtilization                  .72340    
+Cashier.NumberSeized                        104.00    
+Cashier.ScheduledUtilization                .56139    
+System.NumberOut                            131.00    
+
+Beginning replication 26 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 26 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.5630     (Insuf)    3.9993     7.8470        123    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        123    
+Customer.WaitTime                           1.3025     (Insuf)    .00000     10.798        123    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        123    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        123    
+Customer.TotalTime                          6.8656     (Insuf)    4.2161     16.521        123    
+Order at Cashier.Queue.WaitingTime          .37764     (Insuf)    .00000     2.8088         80    
+Cook.Queue.WaitingTime                      .41541     (Insuf)    .00000     3.0986        126    
+Order at Kiosk.Queue.WaitingTime            1.7083     (Insuf)    .00000     10.030         46    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.7409     (Insuf)    .00000     11.000     3.0000    
+Kiosk.NumberBusy                            .62939     (Insuf)    .00000     1.0000     .00000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .62939     (Insuf)    .00000     1.0000     .00000    
+Cooks.NumberBusy                            2.7741     (Insuf)    .00000     4.0000     3.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .69353     (Insuf)    .00000     1.0000     .75000    
+Cashier.NumberBusy                          .44224     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .44224     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .16784     (Insuf)    .00000     4.0000     .00000    
+Cook.Queue.NumberInQueue                    .29079     (Insuf)    .00000     3.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .43658     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           126.00    
+Customer.NumberOut                          123.00    
+Kiosk.NumberSeized                          46.000    
+Kiosk.ScheduledUtilization                  .62939    
+Cooks.NumberSeized                          126.00    
+Cooks.ScheduledUtilization                  .69353    
+Cashier.NumberSeized                        80.000    
+Cashier.ScheduledUtilization                .44224    
+System.NumberOut                            123.00    
+
+Beginning replication 27 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 27 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4643     (Insuf)    4.1242     8.5310        143    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        143    
+Customer.WaitTime                           2.2789     (Insuf)    .00000     11.195        143    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        143    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        143    
+Customer.TotalTime                          7.7432     (Insuf)    4.1314     17.249        143    
+Order at Cashier.Queue.WaitingTime          .59745     (Insuf)    .00000     2.6490         98    
+Cook.Queue.WaitingTime                      1.0585     (Insuf)    .00000     4.5566        145    
+Order at Kiosk.Queue.WaitingTime            2.5510     (Insuf)    .00000     11.195         48    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                6.2430     (Insuf)    .00000     12.000     3.0000    
+Kiosk.NumberBusy                            .68970     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .68970     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            3.1521     (Insuf)    .00000     4.0000     2.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .78803     (Insuf)    .00000     1.0000     .50000    
+Cashier.NumberBusy                          .54288     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .54288     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .32528     (Insuf)    .00000     3.0000     .00000    
+Cook.Queue.NumberInQueue                    .85273     (Insuf)    .00000     5.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .68029     (Insuf)    .00000     5.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           146.00    
+Customer.NumberOut                          143.00    
+Kiosk.NumberSeized                          48.000    
+Kiosk.ScheduledUtilization                  .68970    
+Cooks.NumberSeized                          145.00    
+Cooks.ScheduledUtilization                  .78803    
+Cashier.NumberSeized                        98.000    
+Cashier.ScheduledUtilization                .54288    
+System.NumberOut                            143.00    
+
+Beginning replication 28 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 28 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.3453     (Insuf)    3.8678     8.0017        124    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        124    
+Customer.WaitTime                           1.3057     (Insuf)    .00000     6.1326        124    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        124    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        124    
+Customer.TotalTime                          6.6511     (Insuf)    3.8678     12.727        124    
+Order at Cashier.Queue.WaitingTime          .54945     (Insuf)    .00000     2.4312         97    
+Cook.Queue.WaitingTime                      .69386     (Insuf)    .00000     5.4331        127    
+Order at Kiosk.Queue.WaitingTime            .66104     (Insuf)    .00000     3.2575         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.6447     (Insuf)    .00000     12.000     4.0000    
+Kiosk.NumberBusy                            .43797     (Insuf)    .00000     1.0000     .00000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .43797     (Insuf)    .00000     1.0000     .00000    
+Cooks.NumberBusy                            2.7872     (Insuf)    .00000     4.0000     3.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .69680     (Insuf)    .00000     1.0000     .75000    
+Cashier.NumberBusy                          .52010     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .52010     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .29609     (Insuf)    .00000     3.0000     .00000    
+Cook.Queue.NumberInQueue                    .48956     (Insuf)    .00000     6.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .11385     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           128.00    
+Customer.NumberOut                          124.00    
+Kiosk.NumberSeized                          31.000    
+Kiosk.ScheduledUtilization                  .43797    
+Cooks.NumberSeized                          127.00    
+Cooks.ScheduledUtilization                  .69680    
+Cashier.NumberSeized                        97.000    
+Cashier.ScheduledUtilization                .52010    
+System.NumberOut                            124.00    
+
+Beginning replication 29 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 29 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.5006     (Insuf)    3.8609     7.8510        124    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        124    
+Customer.WaitTime                           1.4093     (Insuf)    .00000     9.8773        124    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        124    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        124    
+Customer.TotalTime                          6.9099     (Insuf)    3.8609     17.708        124    
+Order at Cashier.Queue.WaitingTime          .65654     (Insuf)    .00000     4.3966         85    
+Cook.Queue.WaitingTime                      .41073     (Insuf)    .00000     2.6618        127    
+Order at Kiosk.Queue.WaitingTime            1.5864     (Insuf)    .00000     8.8730         43    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                4.8511     (Insuf)    .00000     12.000     5.0000    
+Kiosk.NumberBusy                            .59215     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .59215     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            2.7922     (Insuf)    .00000     4.0000     3.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .69805     (Insuf)    .00000     1.0000     .75000    
+Cashier.NumberBusy                          .47596     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .47596     (Insuf)    .00000     1.0000     .00000    
+Order at Cashier.Queue.NumberInQueue        .31003     (Insuf)    .00000     4.0000     .00000    
+Cook.Queue.NumberInQueue                    .28979     (Insuf)    .00000     3.0000     .00000    
+Order at Kiosk.Queue.NumberInQueue          .39104     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           129.00    
+Customer.NumberOut                          124.00    
+Kiosk.NumberSeized                          43.000    
+Kiosk.ScheduledUtilization                  .59215    
+Cooks.NumberSeized                          127.00    
+Cooks.ScheduledUtilization                  .69805    
+Cashier.NumberSeized                        85.000    
+Cashier.ScheduledUtilization                .47596    
+System.NumberOut                            124.00    
+
+Beginning replication 30 of 30
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 30 of 30
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+Replication ended at time      : 180.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             5.4548     (Insuf)    3.6682     7.5848        133    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        133    
+Customer.WaitTime                           1.7841     (Insuf)    .00000     10.918        133    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        133    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        133    
+Customer.TotalTime                          7.2390     (Insuf)    3.7847     17.223        133    
+Order at Cashier.Queue.WaitingTime          .63037     (Insuf)    .00000     2.8656         97    
+Cook.Queue.WaitingTime                      .87056     (Insuf)    .00000     5.6116        137    
+Order at Kiosk.Queue.WaitingTime            2.1585     (Insuf)    .00000     8.2979         47    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                5.8318     (Insuf)    .00000     15.000     12.000    
+Kiosk.NumberBusy                            .62738     (Insuf)    .00000     1.0000     1.0000    
+Kiosk.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kiosk.Utilization                           .62738     (Insuf)    .00000     1.0000     1.0000    
+Cooks.NumberBusy                            3.0054     (Insuf)    .00000     4.0000     4.0000    
+Cooks.NumberScheduled                       4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Cooks.Utilization                           .75137     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .53395     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .53395     (Insuf)    .00000     1.0000     1.0000    
+Order at Cashier.Queue.NumberInQueue        .33970     (Insuf)    .00000     3.0000     .00000    
+Cook.Queue.NumberInQueue                    .73422     (Insuf)    .00000     7.0000     5.0000    
+Order at Kiosk.Queue.NumberInQueue          .59111     (Insuf)    .00000     4.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           145.00    
+Customer.NumberOut                          133.00    
+Kiosk.NumberSeized                          47.000    
+Kiosk.ScheduledUtilization                  .62738    
+Cooks.NumberSeized                          137.00    
+Cooks.ScheduledUtilization                  .75137    
+Cashier.NumberSeized                        97.000    
+Cashier.ScheduledUtilization                .53395    
+System.NumberOut                            133.00    
+
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                 Output Summary for 30 Replications
+
+Project: ADM 3305 Project 1_What-If_1Kiosk                           Run execution date :10/30/2025
+Analyst: Windows User                                                Model revision date:10/30/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Customer.NumberIn                           134.43     4.3944     108.00     156.00     30
+Customer.NumberOut                          129.23     4.3105     104.00     150.00     30
+Kiosk.NumberSeized                          40.700     2.6494     27.000     52.000     30
+Kiosk.ScheduledUtilization                  .56525     .03552     .37938     .73646     30
+Cooks.NumberSeized                          132.36     4.2710     107.00     152.00     30
+Cooks.ScheduledUtilization                  .72498     .02348     .58590     .83524     30
+Cashier.NumberSeized                        93.333     3.4656     77.000     110.00     30
+Cashier.ScheduledUtilization                .51451     .01900     .42445     .60737     30
+System.NumberOut                            129.23     4.3105     104.00     150.00     30
+
+Simulation run time: 2.52 minutes.
+Simulation run complete.
